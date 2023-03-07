@@ -1,0 +1,31 @@
+Dar nesuprogramuota: B250, B260, filing language, publication language - gal nereikia? Suprogramuoti, kai bus toks atvejis
+
+pctref hist 1366   --  B007EP: 2991080  --  ???
+
+Testuoti visus keitimus
+
+Testuota:
+510EP
+239 - revocation
+730
+740     //ka rasyti i hist, kai keit statusas d? gal nereikia sito keitimo?
+720
+B540  - title, dar patikslinti if(B007EP.contains("2991???????????????")) 
+B300  - Priority
+B220  - app. filing date  neaisku ar i history rasyti 1366 (pctref)?
+
+Netestuota:
+B210  -  app. filing number
+B430  - publication date
+B861 - PCT date of filing and app number
+B871 - PCT pub number and pub date, neaisku ka rasyti i history 1366
+B620 - division
+
+pctref hist 1366   --  B007EP: 2991080  --  ???
+
+dar:
+d B450  //document with grant second publication   ??
+
+ 
+
+opensession - closesession (getCurrentSession)    finally {   session.close();    } ssession.flush();
